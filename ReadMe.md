@@ -17,3 +17,100 @@
 ## 说明
 
 http://gnurantudoc.sourceforge.net/voip/corso_global1/include/RTP_forum.pdf
+
+
+import os
+import os.path
+import zipfile
+import json
+import sys
+import shutil
+from compressFile import *
+
+class LinuxCopyConfig(object):
+	def __init__(self):
+		self.linuxCopyDirs = [
+			"program_linux64"
+			#"config",
+			#"demo_cases"
+		]
+		pass
+	pass
+
+class WindowsCopyConfig(object):
+	def __init__(self):
+		pass
+	pass
+
+class FilesCopyConfig(object):
+	pass
+
+class CopyAndCompressFile(object):
+
+	def __init__(self, resultName = None, FilesPath = None, WinodwsBinaryPath = None, LinuxBinaryPath = None):
+		self.ResultFileName = resultName;
+		self.WinodwsBinaryPath = WinodwsBinaryPath;
+		self.LinuxBinaryPath = LinuxBinaryPath;
+		self.FilesPath = FilesPath;
+		pass
+
+	def PrepareFiles(self):
+		if(self.ResultFileName == None or self.WinodwsBinaryPath == None or self.LinuxBinaryPath == None ):
+			print "ResultFileName {0} WinodwsBinaryPath {1} or LinuxBinaryPath {2} is None".format(self.ResultFileName, self.WinodwsBinaryPath, self.LinuxBinaryPath);
+			return;
+
+		if(not os.path.exists(self.WinodwsBinaryPath) or not os.path.exists(self.LinuxBinaryPath)):
+			print "WinodwsBinaryPath {0} or LinuxBinaryPath {1} not exists".format(self.WinodwsBinaryPath, self.LinuxBinaryPath);
+			return;
+
+		if(os.path.exists(self.ResultFileName)):
+			shutil.rmtree(file_directory);
+
+		os.path.mkdirs(self.ResultFileName);
+		linuxConfig = LinuxCopyConfig();
+		windowsConfig = WindowsCopyConfig();
+		filesConfig   = FilesCopyConfig();
+
+		self.CopyFiles(self.FilesPath, filesConfig);
+		self._ExtractAndCopyLinuxBinary(self.LinuxBinaryPath, linuxConfig);
+		self._CopyWindowsBinary(self.WinodwsBinaryPath, windowsConfig);
+		pass
+
+	def GetCompressFile(self):
+		filename = self.ResultFileName + ".zip";
+		pass
+
+	def _ExtractAndCopyLinuxBinary(self, zipBinary, linuxConfig):
+		file_directory = "linux_program_files";
+		if(os.path.exists(file_directory)):
+			shutil.rmtree(file_directory);
+		cf = CompressFiles();
+		cf.Extractfile(zipBinary,file_directory);
+
+		if(not os.path.exists(self.ResultFileName)):
+			print ("ResultFileName {0} not exists".format(self.ResultFileName))
+			return
+			pass
+
+		for f in linuxConfig.linuxCopyDirs:
+			fullpath = os.path.join(self.ResultFileName, f);
+			if(not os.path.exists(fullpath)):
+				os.mkdirs(fullpath);
+			copyfilepath = os.path.join(file_directory,f);
+			files = os.listdir(copyfilepath);
+			for f in files:
+				filesfullpath = os.path.join(copyfilepath, f);
+				shutil.copy(filesfullpath, fullpath)
+				pass #end for f
+			pass #end for dirs
+		pass
+
+	def _CopyWindowsBinary(self, filepath, windowsConfig):
+		pass
+
+	def CopyFiles(self, filepath, filesConfig):
+		self._CopyWindowsBinary(filepath,filesConfig);
+		pass
+
+
+	pass
