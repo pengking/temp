@@ -9,7 +9,14 @@
 http://staff.ustc.edu.cn/~xhzhou/CA-Spring2017/chapter01.ppt
 http://etd.lib.nsysu.edu.tw/ETD-db/ETD-search-c/getfile?URN=etd-1015112-234055&filename=etd-1015112-234055.pdf
 
-https://llvm.org/devmtg/2014-04/PDFs/Talks/
-http://groups.inf.ed.ac.uk/pasta/tools_arcsim.html
-http://groups.inf.ed.ac.uk/pasta/
-https://github.com/gensim-project/gensim
+> https://llvm.org/devmtg/2014-04/PDFs/Talks/
+> http://groups.inf.ed.ac.uk/pasta/tools_arcsim.html
+> http://groups.inf.ed.ac.uk/pasta/
+> https://github.com/gensim-project/gensim
+
+> https://evilpan.com/2020/04/12/glibc-heap-exp/
+> http://www.capstone-engine.org/BHUSA2014-capstone.pdf
+
+> https://baptiste-wicht.com/posts/2017/05/cpp-containers-benchmark-vector-list-deque-plf-colony.html
+
+> https://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html
