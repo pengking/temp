@@ -20,3 +20,7 @@ http://etd.lib.nsysu.edu.tw/ETD-db/ETD-search-c/getfile?URN=etd-1015112-234055&f
 > https://baptiste-wicht.com/posts/2017/05/cpp-containers-benchmark-vector-list-deque-plf-colony.html
 
 > https://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html
+
+
+gyp 静态链接库
+'standalone_static_library': 1,
