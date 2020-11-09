@@ -27,3 +27,5 @@ http://etd.lib.nsysu.edu.tw/ETD-db/ETD-search-c/getfile?URN=etd-1015112-234055&f
 
 gyp 静态链接库
 'standalone_static_library': 1,
+[return oriented program](https://ctf101.org/binary-exploitation/return-oriented-programming/)
+[rop attacks](https://resources.infosecinstitute.com/return-oriented-programming-rop-attacks/#gref)
