@@ -29,3 +29,8 @@ gyp 静态链接库
 'standalone_static_library': 1,
 [return oriented program](https://ctf101.org/binary-exploitation/return-oriented-programming/)
 [rop attacks](https://resources.infosecinstitute.com/return-oriented-programming-rop-attacks/#gref)
+
+https://wiki.osdev.org/X86-64_Instruction_Encoding
+http://www.c-jump.com/CIS77/CPU/x86/lecture.html
+https://github.com/intelxed/xed
+https://github.com/search?q=x86+encoder
