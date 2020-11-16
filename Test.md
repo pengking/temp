@@ -34,3 +34,8 @@ https://wiki.osdev.org/X86-64_Instruction_Encoding
 http://www.c-jump.com/CIS77/CPU/x86/lecture.html
 https://github.com/intelxed/xed
 https://github.com/search?q=x86+encoder
+
+https://ieeexplore.ieee.org/abstract/document/9045559
+https://github.com/vanever/ABC
+https://people.eecs.berkeley.edu/~alanmi/abc/
+https://github.com/scale-lab/DRiLLS
