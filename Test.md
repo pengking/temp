@@ -46,4 +46,4 @@ https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html
 
 RACE: A WORD-LEVEL ATPG-BASED CONSTRAINTS SOLVER SYSTEM
 FOR SMART RANDOM SIMULATION
-
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4397275
