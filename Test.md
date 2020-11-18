@@ -39,3 +39,11 @@ https://ieeexplore.ieee.org/abstract/document/9045559
 https://github.com/vanever/ABC
 https://people.eecs.berkeley.edu/~alanmi/abc/
 https://github.com/scale-lab/DRiLLS
+
+Constraint-based verification
+https://www.airs.com/blog/archives/39
+https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html
+
+RACE: A WORD-LEVEL ATPG-BASED CONSTRAINTS SOLVER SYSTEM
+FOR SMART RANDOM SIMULATION
+
