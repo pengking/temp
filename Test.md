@@ -49,3 +49,5 @@ FOR SMART RANDOM SIMULATION
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4397275
 
 https://link.springer.com/content/pdf/10.1007%2F0-387-30784-2.pdf
+
+https://github.com/ben-marshall/awesome-open-hardware-verification
