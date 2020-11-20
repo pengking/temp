@@ -51,3 +51,6 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4397275
 https://link.springer.com/content/pdf/10.1007%2F0-387-30784-2.pdf
 
 https://github.com/ben-marshall/awesome-open-hardware-verification
+https://boolector.github.io/docs/pyboolector.html
+https://www.bilibili.com/video/BV1qp411R76y?from=search&seid=11121433773740650907
+
