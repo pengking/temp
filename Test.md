@@ -53,4 +53,7 @@ https://link.springer.com/content/pdf/10.1007%2F0-387-30784-2.pdf
 https://github.com/ben-marshall/awesome-open-hardware-verification
 https://boolector.github.io/docs/pyboolector.html
 https://www.bilibili.com/video/BV1qp411R76y?from=search&seid=11121433773740650907
+[valgrind tools]https://pmem.io/valgrind/generated/manual-writing-tools.html
+[optimize bug](https://zhuanlan.zhihu.com/p/26656077)
+[linux symbolic link refer bug](https://stackoverflow.com/questions/1054697/why-isnt-my-new-operator-called)
 
