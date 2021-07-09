@@ -56,4 +56,7 @@ https://www.bilibili.com/video/BV1qp411R76y?from=search&seid=1112143377374065090
 [valgrind tools]https://pmem.io/valgrind/generated/manual-writing-tools.html
 [optimize bug](https://zhuanlan.zhihu.com/p/26656077)
 [linux symbolic link refer bug](https://stackoverflow.com/questions/1054697/why-isnt-my-new-operator-called)
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/
+sed -i s/&&/&/g `grep && -rl --include="*.h" ./`
+
 
